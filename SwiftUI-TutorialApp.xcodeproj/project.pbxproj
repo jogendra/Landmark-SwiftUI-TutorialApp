@@ -14,6 +14,7 @@
 		404A69BA22A793FE0076419E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A69B922A793FE0076419E /* Preview Assets.xcassets */; };
 		404A69BD22A793FE0076419E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404A69BB22A793FE0076419E /* LaunchScreen.storyboard */; };
 		404A69C522A7AB200076419E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A69C422A7AB200076419E /* CircleImage.swift */; };
+		404A69C722A7B06F0076419E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A69C622A7B06F0076419E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		404A69BC22A793FE0076419E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		404A69BE22A793FE0076419E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		404A69C422A7AB200076419E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		404A69C622A7B06F0076419E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 			children = (
 				404A69B022A793FB0076419E /* AppDelegate.swift */,
 				404A69B222A793FB0076419E /* SceneDelegate.swift */,
+				404A69C422A7AB200076419E /* CircleImage.swift */,
+				404A69C622A7B06F0076419E /* MapView.swift */,
 				404A69B422A793FB0076419E /* ContentView.swift */,
 				404A69B622A793FE0076419E /* Assets.xcassets */,
-				404A69C422A7AB200076419E /* CircleImage.swift */,
 				404A69BB22A793FE0076419E /* LaunchScreen.storyboard */,
 				404A69BE22A793FE0076419E /* Info.plist */,
 				404A69B822A793FE0076419E /* Preview Content */,
@@ -151,6 +154,7 @@
 			files = (
 				404A69B122A793FB0076419E /* AppDelegate.swift in Sources */,
 				404A69C522A7AB200076419E /* CircleImage.swift in Sources */,
+				404A69C722A7B06F0076419E /* MapView.swift in Sources */,
 				404A69B322A793FB0076419E /* SceneDelegate.swift in Sources */,
 				404A69B522A793FB0076419E /* ContentView.swift in Sources */,
 			);
